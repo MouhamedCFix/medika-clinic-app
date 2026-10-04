@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+client/node_modules/
+/.pnp
+.pnp.js
+
+# Production build outputs
+dist/
+client/dist/
+build/
+
+# SQLite WAL and temporary files
+data/*.db-wal
+data/*.db-shm
+data/*_pre_restore_*.db
+*.tmp
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+*.log
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test export outputs
+test_*.xlsx
+test-*.js
