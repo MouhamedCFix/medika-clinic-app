@@ -38,3 +38,6 @@ Thumbs.db
 # Test export outputs
 test_*.xlsx
 test-*.js
+
+# Personal private notes (kept local, not published to GitHub)
+LEARNING_AND_CODE_GUIDE.md
